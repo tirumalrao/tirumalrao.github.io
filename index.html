@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tirumal Rao - Resume | Portfolio</title>
+	<title>Tirumal Rao - Resume</title>
 	<script src="js/jquery.min.js"> </script>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -28,31 +28,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  	<!---- start-smoth-scrolling---->
 </head>
 <body>
-<!------headerbg starts--------->
+<!--headerbg starts-->
  <div id="top-top" class="headerbg">
-	 <!------header starts--------->
+	 <!--header starts-->
 	   <div class="header">
-		 <!------container starts--------->
+		 <!--container starts-->
 			  <div class="container">
 				   <div class="logo">
-						<a href="#">Resume</a>
+						<a href="http://www.tirumalrao.com/">Tirumal Rao</a>
 				   </div>
-				  <!------Navigation starts--------->
+				  <!--Navigation starts-->
 				  <div class="nav">
 					 <ul>
 						 <li><a class="scroll" href="#about">ABOUT</a></li>
 						 <li><a class="scroll" href="#skills">SKILLS</a></li>
-						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
+						 <!--<li><a class="scroll" href="#port">PORTFOLIO</a></li>-->
 						 <li><a class="scroll" href="#contact">CONTACT</a></li>
 					 </ul>
 				 </div>
-				  <!------Navigation ends-------->
+				  <!--Navigation end-->
 					<div class="clear"></div>
 			  </div>
-		 <!------container ends--------->
+		 <!--container ends-->
 	   </div>
-	 <!------header ends--------->
-	 <!------Banner starts--------->
+	 <!--header ends-->
+	 <!--Banner starts-->
 	   <div class="banner">
 	      <div class="container">
 		     <div class="banner-info">
@@ -60,29 +60,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <img src="images/diamond.png">
 			      </div>
 			      <div class="bannerhead">
-				      <h2>My name is <span>John Deo</span></h2>
-				      <h3>PHP Programmer</h3>
-				      <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					  lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</p>
+				      <h2>My name is <span>Tirumal Rao</span></h2>
+				      <h3>Web Programmer</h3>
+				      <p>I'm a seasoned website professional. I've been creating beautiful websites with rich client-side interactions.</p>
 					  <a class="downarrow scroll" href="#about"><span> </span></a>
 			      </div>
 			 </div>
 			 <div class="clear"></div>
 		  </div>
 	  </div>
-	  <!------Banner ends-------->
+	  <!--Banner end-->
  </div>
- <!------Headerbg ends-------->
- <!------Content starts--------->
+ <!--Headerbg end-->
+ <!--Content starts-->
  <div class="content">
-	 <!------About starts--------->
+	 <!--About starts-->
 	   <div id="about" class="about">
 		 <div class="container">
 			   <div class="header-section text-center">
 				  <h2><span> </span>ABOUT<span> </span></h2>
 				  </div>
-				 <span><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					 lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</p></span>
+				 <span><p>I'm a seasoned website professional. I've experience in creating beautiful websites with rich client-side interactions. Javascript and jQuery library are my tools of trade. I've been building WordPress themes and plug-ins, custom Ajax based one page micro-sites, better user interface, user specific custom banners, converting good design to better interface. I'm passionate about Internet technologies and advocates for better usability of website.</p></span>
 					 
 			  <div class="years">	 
 				<h4><b>2009</b></h4>
@@ -110,9 +108,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <a class="arrow scroll" href="#skills"><span> </span></a>
 		  </div>
 	  </div>
-	 <!------About Ends--------->
+	 <!--About Ends-->
 	 
-	<!------SKILLS Starts--------->
+	<!--SKILLS Starts-->
 	  <div id="skills" class="skills">
 	  <div class="container">
 	     <div class="skills-grids">
@@ -125,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<div class="col-md-3">	
 											<div class="skill-grid">
 												<div class="circle" id="circles-1"></div>									
-												 <h3>HTML</h3>	
+												 <h3>HTML & CSS</h3>	
 											 </div>								  
 										</div>
 										<div class="col-md-3">	
@@ -137,13 +135,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<div class="col-md-3">	
 											<div class="skill-grid">
 												<div class="circle" id="circles-3"></div>									
-												 <h3>PHP</h3>	
+												 <h3>JavaScript</h3>	
 											 </div>								  
 										</div>
 										<div class="col-md-3">	
 											<div class="skill-grid">
 												<div class="circle" id="circles-4"></div>									
-												 <h3>JAVASCRIPT</h3>	
+												 <h3>RWD</h3>	
 											 </div>								  
 										</div>
 										<div class="clearfix"> </div>
@@ -156,20 +154,61 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									var colors = [
 											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
 										];
-									for (var i = 1; i <= 5; i++) {
-										var child = document.getElementById('circles-' + i),
-											percentage = 50 + (i * 10);
+									
+										var child1 = document.getElementById('circles-1'),
+											percentage = 50 + (4* 10);
 											
 										Circles.create({
-											id:         child.id,
+											id:         child1.id,
 											percentage: percentage,
 											radius:     80,
 											width:      15,
 											number:   	percentage / 10,
-											text:       '%',
-											colors:     colors[i - 1]
+											text:       '',
+											colors:     colors[1 - 1]
 										});
-									}
+
+										var child2 = document.getElementById('circles-2'),
+											percentage = 50 + (2 * 10);
+											
+										Circles.create({
+											id:         child2.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage / 10,
+											text:       '',
+											colors:     colors[2 - 1]
+										});
+
+										var child3 = document.getElementById('circles-3'),
+											percentage = 50 + (3 * 10);
+											
+										Circles.create({
+											id:         child3.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage / 10,
+											text:       '',
+											colors:     colors[3 - 1]
+										});
+									
+
+									var child4 = document.getElementById('circles-4'),
+											percentage = 50 + (3 * 10);
+											
+										Circles.create({
+											id:         child4.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage / 10,
+											text:       '',
+											colors:     colors[3 - 1]
+										});
+
+
 							
 					</script>
 					
@@ -179,8 +218,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <a class="down scroll" href="#port"><span> </span></a>
 	  </div>
 	  </div>
-	 <!------SKILLS Ends--------->
-		 <!------PORTFOLIO Starts--------->
+	 <!--SKILLS Ends-->
+		 <!--PORTFOLIO Starts- ->
 		 <div id="port" class="Portfolio">
 			  <div class="Portfolio-section text-center">
 			      <h2><span> </span>PORTFOLIO<span> </span></h2>
@@ -212,9 +251,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  </div>
 		 </div>
   </div>
-  <!------Content Ends-------->
+  <!--Content End-->
   
-  <!------FOOTER Starts----------->
+  <!--FOOTER Starts---->
   <div  id="contact" class="footer">
       <div class="container">
 	  
@@ -227,8 +266,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  <div class="footer-left">
 						<div class="social-icons">
 						   <a href="#"><img src="images/in.png"></a>
-						   <a href="#"><img src="images/twt.png"></a>
-						   <a href="#"><img src="images/fb.png"></a>
+						   <!--<a href="#"><img src="images/twt.png"></a>-->
+						   <a href="https://www.facebook.com/tirumalrao"><img src="images/fb.png"></a>
 					   </div>
 					   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
 					   quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
@@ -251,7 +290,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 </div>
 				  </div>
 				  <div class="clear"></div>
-				  <p class="copy-right">Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				  
 			  </div>
 		 </div>
 	 </div>
